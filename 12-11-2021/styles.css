@@ -1,0 +1,20 @@
+.heading1 {
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+}
+
+.heading2{
+    color:red;
+    text-align: right;
+}
+
+.img1{
+    width:300px;
+    float: left;
+}
+
+.img2{
+    width: 400px;
+    float: right;
+}

@@ -1,0 +1,22 @@
+.first{
+    text-align: center;
+    color: blueviolet;
+}
+
+.second{
+    color:green;
+    text-align: right;
+}
+
+.first h1{
+    color:deeppink;
+}
+
+.second h1{
+    color:maroon;
+}
+
+.first span{
+    color:red;
+    font-size: 20px;
+}
