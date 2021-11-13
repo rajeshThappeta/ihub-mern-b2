@@ -1,0 +1,35 @@
+.parent{
+    max-width:600px;
+    height: 600px;
+    border:3px solid black;
+    margin: auto;
+    /* create flex container */
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* vertical alignment */
+   align-items: center;
+   justify-content: center;
+}
+
+/* common for children */
+.child1,.child2,.child3{
+    width:100px;
+    height: 100px;
+    
+}
+
+.child1{
+    background-color: blueviolet;
+   
+}
+
+.child2{
+    background-color: crimson;
+    
+}
+
+.child3{
+    background-color: darkblue;
+    
+}

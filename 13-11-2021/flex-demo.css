@@ -1,0 +1,25 @@
+header ul{
+   list-style-type: none; 
+   display: flex;
+   justify-content: space-evenly;
+   background-color: darkblue;
+   color:white;
+   padding: 10px;
+   font-weight: bold;
+}
+
+/* emp profiles parent */
+.profiles{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+/* each emp profile */
+.profiles .emp{
+    width:250px;
+    box-shadow: 1px 1px 10px dodgerblue;
+    padding:15px;
+    border-radius: 10px;
+    text-align: center;
+}
