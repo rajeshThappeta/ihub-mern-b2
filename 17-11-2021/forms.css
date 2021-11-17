@@ -1,0 +1,41 @@
+form{
+    width:30rem;
+    margin: auto;
+    margin-top: 10rem;
+    /* background-color: grey;
+    padding: 30px; */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"],
+input[type="file"],
+input[type="date"],
+select,
+textarea{
+    width:100%;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    resize: none;
+}
+
+
+input[type="checkbox"],
+input[type="radio"]{
+
+    
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+button{
+    background-color: green;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+}

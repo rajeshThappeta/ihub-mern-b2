@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+
+<body>
+
+    <!-- login form -->
+    <form>
+
+        <fieldset>
+            <legend>Signup</legend>
+            <!-- usrname -->
+            <div>
+                <label for="un">Username</label>
+                <input type="text" name="username" id="un" placeholder="Enter username.." autocomplete="off">
+            </div>
+
+            <!-- password -->
+            <div>
+                <label for="pw">Password</label>
+                <input type="password" name="password" id="pw">
+            </div>
+
+            <!--salary  -->
+            <div>
+                <label for="salary">Salary</label>
+                <input type="number" name="salary" id="salary">
+            </div>
+
+            <!-- dob -->
+            <div>
+                <label for="dob">Date of birth</label>
+                <input type="date" name="dob" id="dob">
+            </div>
+
+            <!-- email -->
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <!-- select branch -->
+            <div>
+                <label for="branch">Select a branch</label>
+                <select name="branch" id="branch">
+                    <option selected disabled>Select a option</option>
+                    <option value="cse">CSE</option>
+                    <option value="ece">ECE</option>
+                    <option value="eee">EEE</option>
+                </select>
+            </div>
+
+            <!-- feedback -->
+            <div>
+                <label for="fb">Feedback</label>
+                <textarea name="feedback" id="fb" rows="5"></textarea>
+            </div>
+
+            <!-- profile pic -->
+            <div>
+                <label for="profile">Upload profile image</label>
+                <input type="file" name="profile-image" id="profile">
+            </div>
+
+            <!-- skills -->
+            <div>
+                <label>Select skills</label>
+
+                <!-- skill-1 -->
+                <div>
+                    <input type="checkbox" name="singing" id="sn">
+                    <label for="sn">Singing</label>
+                </div>
+                <!-- skill-2 -->
+                <div>
+                    <input type="checkbox" name="dancing" id="dance">
+                    <label for="dance">Dancing</label>
+                </div>
+            </div>
+
+
+            <!-- gender -->
+            <div>
+                <label>Select gender</label>
+                <!-- male -->
+                <div>
+                    <input type="radio" name="gender" id="m">
+                    <label for="m">Male</label>
+                </div>
+                <!-- female -->
+                <div>
+                    <input type="radio" name="gender" id="f">
+                    <label for="f">Female</label>
+                </div>
+
+            </div>
+
+            <!-- submit button -->
+            <button type="submit">Login</button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
